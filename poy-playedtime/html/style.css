@@ -1,0 +1,68 @@
+* {
+    font-family: arial;
+    white-space: nowrap;
+}
+
+.maincon {
+    display: none;
+    width: 320px;
+    height: 120px;
+    background-color: #484848;
+    border-radius: 5px;
+    position: absolute;
+    left: 80%;
+    top: 40%;
+}
+
+.topbar {
+    position: absolute;
+    height: 25%;
+    width: 100%;
+    background-color: #E34242;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.emoji1 {
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translate(-5%, -50%);
+}
+
+.roleplayname {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: white;
+    position: absolute;
+    left: 20%;
+    top: -4px;
+    transform: translate(-14%, -20%);
+}
+
+
+.birk {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    color: white;
+    position: absolute;
+    left: 66%;
+    top: 4%;
+    transform: translate(-14%, -20%);
+}
+
+@font-face {
+    font-family: arial;
+    src: url(./fonts/ArialNova.ttf);
+}
+
+.maintext{
+    position: relative;
+    z-index: 20;
+    font-size: 13px;
+    text-align: center;
+    top: 27%;
+    color: rgb(214, 214, 214);
+}
